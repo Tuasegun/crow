@@ -52,7 +52,7 @@ class App extends Component{
         <div>
           <Header/>
           <Switch>
-          <Route exact path='/' component={ShopPage} />
+          <Route exact path='/' component ={ShopPage} />
           <Route exact path = '/checkout'  component ={CheckoutPage} />
           </Switch>
           
